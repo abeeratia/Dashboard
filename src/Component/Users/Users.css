@@ -1,0 +1,69 @@
+
+.user{
+    padding-left: 200px;
+}
+th{
+  text-transform: capitalize ;
+    color: #040d5f;
+    border-bottom: none !important;
+
+}
+
+td{
+    border-bottom: none !important;
+}
+
+thead{
+    margin-top: 20px !important;
+}
+input[type='file']{
+    display: none;
+
+}
+label{
+    color: white;
+    width: 100%;
+    background-color: #fbfafa;
+    cursor: pointer;
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+}
+.imguploaded{
+    width: 30px;
+    height: 30px;
+
+
+}
+.colorinput{
+    background-color: #f8f6f6 !important;
+}
+
+  .placeholde::placeholder {
+    color:#030d5e7a !important;
+    font-weight: 500 !important;
+}
+.modal-body{
+    top: -7px;
+    
+}
+.modal-content .backgroundcolorr {
+    background-color: #e8e8e8!important;
+    padding-block: 20px !important;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 77% !important;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    height: 75vh;
+}

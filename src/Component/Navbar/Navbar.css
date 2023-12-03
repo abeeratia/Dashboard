@@ -1,0 +1,33 @@
+.media {
+    margin-top: 0px !important;
+    padding-left: 110px !important;
+}
+.dropdown-toggle {
+    white-space: nowrap !important;
+    border-radius: 30px !important;
+    padding-inline: 10px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+}
+.line{
+    top: -10px;
+}
+p {
+    margin-top: -18px !important;
+    margin-bottom: 1rem;
+}
+.px-3 {
+    padding-right: 3rem!important;
+    padding-left: 1rem!important;
+}
+.dropdown-toggle::after {
+    margin-left: 1.255em !important;
+}
+.borderr{
+    border: 2px solid #050D5982;
+}
+.backgroundd{
+    background-color: white;
+}

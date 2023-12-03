@@ -1,0 +1,114 @@
+
+.sideBar{
+    background-color:var(--main-color) ;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    width: 96px;
+    height:100vh;
+    padding-left: 15px;
+    position:fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    z-index: 2;
+ }
+ body {
+     --main-color:#040D5F;
+     overflow: auto!important;
+     position: relative;
+ }
+ 
+ .listSideHeader .sideIcons {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .sideBar a::before {
+ 
+ content:"";
+ width: 7px;
+ height: 22px;
+ background-color: white;
+ translate: -12px -10px;
+ opacity: 0;
+ 
+ }
+ 
+ .sideBar a.active::before{
+ 
+     opacity: 1;  
+ }
+ 
+ 
+ 
+ .listSideHeader span {
+ 
+ display: block;
+ 
+ }
+ 
+ .sideHeader .toggle{
+     position: fixed;
+     left: 105px;
+     top: 32px;
+     color: green;
+     color: var(--main-color);
+     cursor: pointer;
+ 
+ }
+ 
+ .wizzParent{
+ 
+     margin-bottom: 50px;
+ }
+ 
+ .wizz {
+ 
+    
+     margin-top: 32px;
+    width: 62px;
+    height: 38px;
+    margin-left: 10px;
+
+ 
+ }
+ .wizz2 {
+ 
+ position: fixed;
+ left: 190px;
+ top: 10px;
+ width: 100px;
+ height: 65px;
+ opacity: 0;
+ }
+ 
+ .sideIcons {
+ 
+ margin-bottom: 20px;
+ }
+ 
+ 
+.sideIcons:hover .hoversvg{
+    stroke: #cb0ea8;
+}
+.hoverr{
+    color: white !important;
+}
+.sideIcons:hover .hoverr{
+    color:#cb0ea8 !important;
+
+}
+.cursorr {
+    cursor: pointer;
+}
+.strok{
+    stroke: #cb0ea8;
+    }
+    .sideIcons:hover .hoversvg1{
+        stroke: #cb0ea8 ;
+        fill: #cb0ea8;
+    }
+
+
+
+  
